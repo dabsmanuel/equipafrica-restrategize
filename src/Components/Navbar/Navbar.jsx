@@ -1,46 +1,5 @@
-// import { useState } from "react";
-// import { GiHamburgerMenu } from "react-icons/gi";
-
-
-// const Navbar = () => {
-//   const [open, setOpen] = useState(false);
-//   return (
-//     <main>
-//       <nav className="navigation">
-//         <div className="logo">
-//           <h2 className="text-3xl font-bold">
-//             <a href="/"> Apple</a>
-//           </h2>
-//         </div>
-//         <button
-//           className="hamburger"
-//           onClick={() => {
-//             setOpen(!open);
-//           }}
-//         >
-//           <GiHamburgerMenu className="icon" />
-//         </button>
-//         <div className={open ? "nav-menu expanded" : "nav-menu"}>
-//           <ul>
-//             <li>
-//               <a href="/">Home</a>
-//             </li>
-//             <li>
-//               <a href="/">About</a>
-//             </li>
-//             <li>
-//               <a href="/">Speakers</a>
-//             </li>
-//           </ul>
-//         </div>
-//       </nav>
-//     </main>
-//   );
-// };
-
-// export default Navbar;
-
 import { useState } from "react";
+import Logo from "../../Assets/IMG-20221116-WA0017.jpg";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -51,7 +10,7 @@ export default function NavBar() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="/">
-              <h2 className="text-2xl font-bold">LOGO</h2>
+              <img src={Logo} className="w-40 h-8 object-cover" alt="logo" />
             </a>
             <div className="md:hidden">
               <button

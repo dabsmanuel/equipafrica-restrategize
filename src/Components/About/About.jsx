@@ -10,7 +10,7 @@ const About = () => {
           </h1>
           <p></p>
         </div>
-        <div className="img-contain flex-1">
+        <div className="img-contaner">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
             fugiat iste possimus quas ipsum, deleniti, alias fugit ut, rerum ea
