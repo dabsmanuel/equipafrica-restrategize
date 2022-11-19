@@ -1,0 +1,24 @@
+.typewriter h1{
+    display: inline-block;
+    letter-spacing: 0.1em;
+
+    border-right: solid 3px white;
+
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+
+    animation: 
+        type 4s steps(100) 1s forwards infinite,
+        blink 1s steps(1)  infinite;
+}
+
+@keyframes type {
+    to {width: 35ch}
+}
+
+@keyframes blink {
+    from {border-color: transparent}
+    60% {border-color: black}
+    to {border-color: transparent}
+}
