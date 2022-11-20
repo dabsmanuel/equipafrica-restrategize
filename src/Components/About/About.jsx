@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className="container py-16">
-      <div className="mt-8 block lg:flex md:pb-0 md:mt-0">
-        <div className="writeup sm:px-16 px-6">
+    <section className="container sm:px-16 px-6 py-8 mt-8 text-gray-700">
+      <div className="mt-8 block lg:flex gap-16 md:pb-0 md:mt-0">
+        <div className="writeup ">
           <h1 className="uppercase font-bold text-center text-2xl pb-2 sm:font-xl lg:font-xl">
             About Equip Africa - Restrategize 2022
           </h1>
@@ -19,13 +19,13 @@ const About = () => {
             specifically from Passion, Purpose and Produtivity. These core
             themes will be introduced elaborately in the following pages.
           </p>
-          <div className="button-cont text-center mt-8">
-            <button class="bg-transparent text-black hover:text-white-400 py-2 px-4 border border-black hover:border-black-700 rounded text-base md:max-w-2xl border-2 ">
+          <div className="button-cont text-center lg:text-start mt-8">
+            <button className="bg-transparent text-grey-700 hover:text-white hover:bg-black py-2 px-4 border border-black hover:border-grey-700 rounded text-base md:max-w-2xl border-2 font-bold">
               REGISTER HERE
             </button>
           </div>
         </div>
-        <div className="sm:px-16 px-6 mt-16 lg:mt-0">
+        <div className="mt-16 lg:mt-0">
           <h2 className="font-bold text-center text-2xl pb-2 sm:font-xl lg:font-xl">
             OUR PURPOSE
           </h2>
@@ -44,11 +44,11 @@ const About = () => {
             second theme termed Purpose seeks to alleviate these problems and
             provide answers to three major questions.
           </p>
-          <ul className="list-disc px-4 pt-4">
+          <ol className="list-decimal px-4 pt-4">
             <li>Introducing Purpose: How do i find my purpose?</li>
             <li>A life worth living: How do I live purposefully?</li>
             <li>Focus: How do I stay aligned to my purpose?</li>
-          </ul>
+          </ol>
         </div>
       </div>
     </section>

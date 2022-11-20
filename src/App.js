@@ -3,6 +3,7 @@ import About from "./Components/About/About";
 import Speaker from "./Components/Speaker/Speaker";
 import Contact from "./Components/Contact/Contact"
 import Header from "./Components/Header/HeaderArea";
+import Equip from "./Components/equip/Equip";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Header/>
       <About />
+      <Equip/>
       <Speaker />
       <Contact />
     </>
