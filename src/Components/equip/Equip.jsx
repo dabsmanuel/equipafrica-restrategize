@@ -17,7 +17,7 @@ const Equip = () => {
             />
           </div>
           <div className="flex-1">
-            <p>
+            <p className='text-justify'>
               At equip Africa, we are building a community of Changemakers
               equipped with the needed resources such as access to
               opportunities, mentorship and guidance to transform Africa. with
