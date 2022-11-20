@@ -2,23 +2,53 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className="container pt-20 mx-auto">
-      <div className="items-center sm:container lg:flex mt-8 md:block md:pb-0 md:mt-0">
-        <div className="writeupm flex-1">
-          <h1 className="uppercase font-bold text-center">
+    <section className="container py-16">
+      <div className="mt-8 block lg:flex md:pb-0 md:mt-0">
+        <div className="writeup sm:px-16 px-6">
+          <h1 className="uppercase font-bold text-center text-2xl pb-2 sm:font-xl lg:font-xl">
             About Equip Africa - Restrategize 2022
           </h1>
-          <p></p>
-        </div>
-        <div className="img-contaner">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            fugiat iste possimus quas ipsum, deleniti, alias fugit ut, rerum ea
-            eveniet mollitia consequatur! Quos aspernatur totam maxime quis
-            perferendis sit autem, est tenetur officia voluptatibus expedita,
-            neque voluptates inventore fugiat quam ex fuga ipsum possimus
-            doloribus beatae aperiam culpa! Obcaecati.
+          <p className="text-justify">
+            Restrategize 2022 is a 3-days Retreat organised by Equip Africa
+            Community for all young entrepreneurs to connect and reflect on the
+            goals they had set for the year 2022, as well as the strategies they
+            used in attempting and accomplishing each goal. These young minds
+            get to discover their mistakes and prepare better for the following
+            year through an interactive session with seasoned experts and
+            professionals. The Retreat session is divided into three themes
+            specifically from Passion, Purpose and Produtivity. These core
+            themes will be introduced elaborately in the following pages.
           </p>
+          <div className="button-cont text-center mt-8">
+            <button class="bg-transparent text-black hover:text-white-400 py-2 px-4 border border-black hover:border-black-700 rounded text-base md:max-w-2xl border-2 ">
+              REGISTER HERE
+            </button>
+          </div>
+        </div>
+        <div className="sm:px-16 px-6 mt-16 lg:mt-0">
+          <h2 className="font-bold text-center text-2xl pb-2 sm:font-xl lg:font-xl">
+            OUR PURPOSE
+          </h2>
+          <p className="text-justify">
+            Young Entrepreneurs are faced daily with the inner struggles of
+            figuring out why they exist, what their purpose is and how to derive
+            maximum fulfillment from what they either studied or are currently
+            engaging in. The pressure of having their lives figured out early
+            kicks in soon enough, and all through the year they manage through
+            varying levels of pressures from colleagues and friends, this
+            pressure now exacerbated by social media even makes finding and
+            walking the path of purpose way difficult. The distractions of
+            social media amongst other channels, the need for validation and the
+            aspirations for recognition are posing increasing threats towards
+            the stability of the young entrepreneur and business enthusiast. The
+            second theme termed Purpose seeks to alleviate these problems and
+            provide answers to three major questions.
+          </p>
+          <ul className="list-disc px-4 pt-4">
+            <li>Introducing Purpose: How do i find my purpose?</li>
+            <li>A life worth living: How do I live purposefully?</li>
+            <li>Focus: How do I stay aligned to my purpose?</li>
+          </ul>
         </div>
       </div>
     </section>

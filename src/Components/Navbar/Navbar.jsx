@@ -67,7 +67,7 @@ export default function NavBar() {
                 <a href="/">Speakers</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="/">Contact US</a>
+                <a href="/">Contact Us</a>
               </li>
             </ul>
           </div>
