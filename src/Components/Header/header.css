@@ -22,13 +22,3 @@
     60% {border-color: black}
     to {border-color: transparent}
 }
-
-@media screen and (max-width: 1024px){
-    .green {
-        font-size: 1.1rem !important;
-    }
-
-    @keyframes type {
-    to {width: 46ch}
-}
-}
