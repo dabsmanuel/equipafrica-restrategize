@@ -2,19 +2,19 @@
     display: inline-block;
     letter-spacing: 0.1em;
 
-    border-right: solid 5px white;
+    border-right: solid 6px white;
 
     width: 0;
     overflow: hidden;
     white-space: nowrap;
 
     animation: 
-        type 7s steps(90) 1s forwards infinite,
-        blink 1s steps(2)  infinite;
+        type 5s steps(100) 1s forwards infinite,
+        blink 0.1ms steps(1)  infinite;
 }
 
 @keyframes type {
-    to {width: 33.5ch}
+    to {width: 34ch}
 }
 
 @keyframes blink {

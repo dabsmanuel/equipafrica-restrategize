@@ -8,7 +8,7 @@ const Header = () => {
       id="home"
     >
       <div className="container  pt-56 typewriter text-center">
-        <h1 className="lg:text-5xl text-xl">
+        <h1 className="lg:text-5xl">
           <span className="green font-bold">Equip Africa</span> | Restrategize
           2022
         </h1>
