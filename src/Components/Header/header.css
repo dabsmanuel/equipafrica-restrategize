@@ -9,12 +9,12 @@
     white-space: nowrap;
 
     animation: 
-        type 7s steps(95) 1s forwards infinite,
-        blink 1s steps(5)  infinite;
+        type 7s steps(90) 1s forwards infinite,
+        blink 1s steps(2)  infinite;
 }
 
 @keyframes type {
-    to {width: 35ch}
+    to {width: 33.5ch}
 }
 
 @keyframes blink {
