@@ -2,8 +2,11 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className="container sm:px-16 px-6 py-8 mt-8 text-gray-700">
-      <div className="mt-8 block lg:flex gap-16 md:pb-0 md:mt-0">
+    <section
+      className="container sm:px-16 px-6 py-8 mt-8 text-gray-700"
+      id="about"
+    >
+      <div className="md:pb-0 md:mt-0">
         <div className="writeup ">
           <h1 className="uppercase font-bold text-center text-2xl pb-2 sm:font-xl lg:font-xl">
             About Equip Africa - Restrategize 2022
@@ -19,13 +22,13 @@ const About = () => {
             specifically from Passion, Purpose and Produtivity. These core
             themes will be introduced elaborately in the following pages.
           </p>
-          <div className="button-cont text-center lg:text-start mt-8">
-            <button className="bg-transparent text-grey-700 hover:text-white hover:bg-black py-2 px-4 border border-black hover:border-grey-700 rounded text-base md:max-w-2xl border-2 font-bold">
+          <div className="button-cont text-center mt-8">
+            <button className="bg-slate-800 text-white hover:text-white hover:bg-black py-2 px-4 rounded text-base md:max-w-2xl border-2 font-bold">
               REGISTER HERE
             </button>
           </div>
         </div>
-        <div className="mt-16 lg:mt-0">
+        {/* <div className="mt-16 lg:mt-0">
           <h2 className="font-bold text-center text-2xl pb-2 sm:font-xl lg:font-xl">
             OUR PURPOSE
           </h2>
@@ -49,7 +52,7 @@ const About = () => {
             <li>A life worth living: How do I live purposefully?</li>
             <li>Focus: How do I stay aligned to my purpose?</li>
           </ol>
-        </div>
+        </div> */}
       </div>
     </section>
   );

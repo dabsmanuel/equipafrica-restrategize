@@ -3,7 +3,7 @@ import equipafrica from "../../Assets/equipafrica3.png"
 
 const Equip = () => {
   return (
-    <section className="bg-neutral-50">
+    <section className="bg-slate-200">
       <div className="container sm:px-16 px-6 text-gray-700 py-14">
         <h1 className="font-bold text-center text-2xl lg:text-3xl sm:font-xl lg:font-xl">
           ABOUT THE HOST - EQUIP AFRICA
@@ -17,7 +17,7 @@ const Equip = () => {
             />
           </div>
           <div className="flex-1">
-            <p className='text-justify'>
+            <p className="text-justify">
               At equip Africa, we are building a community of Changemakers
               equipped with the needed resources such as access to
               opportunities, mentorship and guidance to transform Africa. with
@@ -34,7 +34,7 @@ const Equip = () => {
               <a
                 href="https://equipafrica.netlify.app"
                 target="_blanc"
-                className="bg-transparent text-grey-700 hover:text-white hover:bg-black py-2 px-4 border border-black hover:border-grey-700 rounded text-base md:max-w-2xl border-2 font-bold"
+                className="bg-slate-800 text-white hover:text-white hover:bg-black py-2 px-4 rounded text-base md:max-w-2xl border-2 font-semibold"
               >
                 FIND OUT MORE
               </a>

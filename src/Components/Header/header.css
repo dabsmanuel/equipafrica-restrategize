@@ -2,15 +2,15 @@
     display: inline-block;
     letter-spacing: 0.1em;
 
-    border-right: solid 3px white;
+    border-right: solid 5px white;
 
     width: 0;
     overflow: hidden;
     white-space: nowrap;
 
     animation: 
-        type 4s steps(100) 1s forwards infinite,
-        blink 1s steps(1)  infinite;
+        type 7s steps(95) 1s forwards infinite,
+        blink 1s steps(5)  infinite;
 }
 
 @keyframes type {
@@ -19,6 +19,6 @@
 
 @keyframes blink {
     from {border-color: transparent}
-    60% {border-color: black}
+    60% {border-color: white}
     to {border-color: transparent}
 }

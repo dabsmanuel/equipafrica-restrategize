@@ -3,16 +3,19 @@ import './header.css'
 
 const Header = () => {
   return (
-    <section className="mx-auto bg-black text-white pb-32 ">
+    <section
+      className="mx-auto bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white pb-32"
+      id="home"
+    >
       <div className="container lg:text-5xl pt-56 typewriter text-center">
-        <h1>
+        <h1 className="lg:text-6xl text-xl">
           <span className="green font-bold">Equip Africa</span> | Restrategize
           2022
         </h1>
         <p className="text-xl py-10 text-center tracking-[.28rem]">
           It's Time To Retreat!!!
         </p>
-        <button className="bg-transparent text-white hover:text-white-400 py-2 px-4 border border-white-500 hover:border-grey-700 rounded text-base md:max-w-2xl border-2">
+        <button className="bg-transparent hover:bg-gray-200 text-white hover:text-black py-2 px-4 border border-white-500 hover:border-grey-700 rounded text-base md:max-w-2xl border-2 font-semibold">
           REGISTER FOR RESTRATEGIZE 2022
         </button>
       </div>
