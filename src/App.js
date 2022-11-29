@@ -1,21 +1,21 @@
-import Navbar from "./Components/Navbar/Navbar";
-import About from "./Components/About/About";
-import Speaker from "./Components/Speaker/Speaker";
-import Contact from "./Components/Contact/Contact";
-import Header from "./Components/Header/HeaderArea";
-import Equip from "./Components/equip/Equip";
-import Footer from "./Components/footer/Footer";
+import Home from "./pages/Home"
+import Navbar from "./Components/Navbar/Navbar"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./Components/footer/Footer"
+import Apply from "./pages/Apply";
+
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Header />
-      <About />
-      <Equip />
-      <Speaker />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/register" element={<Apply/>} />
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
     </>
   );
 }

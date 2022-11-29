@@ -1,10 +1,11 @@
 import React from "react";
 import './header.css'
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <section
-      className="mx-auto bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white pb-32"
+      className="mx-auto bg-gradient-to-r from-green-700 to-green-900 text-white pb-32"
       id="home"
     >
       <div className="container  pt-56 typewriter text-center">
@@ -15,9 +16,12 @@ const Header = () => {
         <p className="text-2xl py-10 text-center tracking-[.28rem]">
           It's Time To Retreat!!!
         </p>
-        <button className="bg-transparent hover:bg-gray-200 text-white hover:text-black py-2 px-4 border border-white-500 hover:border-grey-700 rounded text-base md:max-w-2xl border-2 font-semibold tracking-[.3rem]">
+        <Link
+          to="/register"
+          className="bg-gradient-to-r from-green-900 to-blue-400 hover:bg-gray-200 text-white hover:text-black py-2 px-4 border border-white-500 hover:border-grey-700 rounded text-base md:max-w-2xl border-2 font-semibold tracking-[.3rem]"
+        >
           RESTRATEGIZE 2022
-        </button>
+        </Link>
       </div>
     </section>
   ); 

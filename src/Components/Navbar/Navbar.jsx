@@ -5,7 +5,7 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full fixed bg-black shadow z-10">
+    <nav className="w-full fixed bg-white shadow z-10">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -14,7 +14,7 @@ export default function NavBar() {
             </a>
             <div className="md:hidden">
               <button
-                className="p-2 text-gray-400 rounded-md outline-none focus:border-gray-400 focus:border"
+                className="p-2 text-gray-900 rounded-md outline-none focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
@@ -57,16 +57,16 @@ export default function NavBar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-bold">
-              <li className="text-gray-400 hover:text-gray-200">
+              <li className="text-gray-900 hover:text-gray-500">
                 <a href="#home">Home</a>
               </li>
-              <li className="text-gray-400 hover:text-gray-200">
+              <li className="text-gray-900 hover:text-gray-500">
                 <a href="#about">About</a>
               </li>
-              <li className="text-gray-400 hover:text-gray-200">
+              <li className="text-gray-900 hover:text-gray-500">
                 <a href="#speakers">Speakers</a>
               </li>
-              <li className="text-gray-400 hover:text-gray-200">
+              <li className="text-gray-900 hover:text-gray-500">
                 <a href="/">Contact Us</a>
               </li>
             </ul>

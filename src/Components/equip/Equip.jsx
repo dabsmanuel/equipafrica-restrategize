@@ -34,7 +34,7 @@ const Equip = () => {
               <a
                 href="https://equipafrica.netlify.app"
                 target="_blanc"
-                className="bg-slate-800 text-white hover:text-white hover:bg-black py-2 px-4 rounded text-base md:max-w-2xl border-2 font-semibold"
+                className="bg-gradient-to-r from-green-900 to-blue-400 hover:bg-gray-200 text-white hover:text-black py-2 px-4 border border-white-500 hover:border-grey-700 rounded text-base md:max-w-2xl border-2 font-semibold tracking-[.3rem]"
               >
                 FIND OUT MORE
               </a>
