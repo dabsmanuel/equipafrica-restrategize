@@ -1,40 +1,37 @@
-import speakersData from "./Data";
+import img1 from "../../Assets/speaker1.jpg";
+import {Link} from "react-router-dom";
 
 const Speaker = () => {
   return (
-    <section className="bg-gradient-to-r from-violet-500 to-fuchsia-500 ">
+    <section className=" bg-gradient-to-r from-green-700 to-green-900">
       <div className=" container lg:px-16 px-6 py-16">
         <div className="pb-12">
           <h3 className="text-gray-100 text-center font-semibold tracking-[.3rem]">
             YOU COULDN'T GET IN MORE BETTER HANDS
           </h3>
           <h1 className="text-gray-100 text-base font-semibold uppercase text-4xl text-center pt-6 tracking-[.9rem]">
-            The Speakers
+            The Speaker
           </h1>
         </div>
-        <div className="md:flex block">
-          {speakersData.map((speaker) => {
-            return (
-              <div
-                className="container m-4 rounded shadow-lg"
-                key={speaker.id}
+        <div className="w-full mx-auto">
+          <div className="container rounded">
+            <img
+              className="w-96  rounded object-fill"
+              src={img1}
+              alt="Sunset in the mountains"
+            />
+            <div className="px-6 py-4 w-96 bg-slate-400">
+              <p className="font-bold text-xl text-gray-800 uppercase text-center">
+                Ijeoma Ejimadu
+              </p>
+              <Link
+                to="/speaker"
+                className=" button bg-gradient-to-r from-green-900 to-blue-400 hover:bg-gray-200 text-white hover:text-black py-2 px-2 hover:border-gray-700 rounded text-center md:max-w-2xl border font-semibold"
               >
-                <img
-                  className="w-full h-96 rounded object-fill"
-                  src={speaker.photo}
-                  alt="Sunset in the mountains"
-                />
-                <div className="px-6 py-4 bg-slate-400">
-                  <p className="font-bold text-xl mb-2 text-gray-800">
-                    {speaker.name}
-                  </p>
-                  <p className="text-gray-600 text-base font-semibold">
-                    {speaker.title}
-                  </p>
-                </div>
-              </div>
-            );
-          })}
+                More
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </section>

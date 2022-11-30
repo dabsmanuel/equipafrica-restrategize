@@ -66,9 +66,7 @@ export default function NavBar() {
               <li className="text-gray-900 hover:text-gray-500">
                 <a href="#speakers">Speakers</a>
               </li>
-              <li className="text-gray-900 hover:text-gray-500">
-                <a href="/">Contact Us</a>
-              </li>
+              {/* */}
             </ul>
           </div>
         </div>

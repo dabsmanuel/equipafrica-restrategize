@@ -3,11 +3,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <section
-      className="container sm:px-16 px-6 py-8 mt-8 text-gray-500"
-      id="about"
-    >
-      <div className="md:pb-0 md:mt-0">
+    <section className=" bg-slate-50 mb-2 pb-10" id="about">
+      <div className="md:pb-0 md:mt-0 container sm:px-16 px-6 py-16 text-gray-500">
         <div className="writeup ">
           <h1 className="uppercase font-bold text-center text-2xl pb-2 sm:font-xl lg:font-xl">
             About Restrategize 2022
