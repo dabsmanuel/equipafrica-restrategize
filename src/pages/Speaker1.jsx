@@ -1,6 +1,5 @@
 import React from 'react'
 import speaker from "../Assets/speaker1.jpg";
-import "./speaker.css"
 import { Link } from "react-router-dom";
 
 

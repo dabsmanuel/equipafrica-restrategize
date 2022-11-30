@@ -1,6 +1,7 @@
 import img1 from "../../Assets/speaker1.jpg";
 import {Link} from "react-router-dom";
 
+
 const Speaker = () => {
   return (
     <section className=" bg-gradient-to-r from-green-700 to-green-900">
@@ -13,20 +14,20 @@ const Speaker = () => {
             The Speaker
           </h1>
         </div>
-        <div className="w-full mx-auto">
+        <div className="">
           <div className="container rounded">
             <img
-              className="w-96  rounded object-fill"
+              className=" rounded object-fill"
               src={img1}
               alt="Sunset in the mountains"
             />
-            <div className="px-6 py-4 w-96 bg-slate-400">
-              <p className="font-bold text-xl text-gray-800 uppercase text-center">
+            <div className="py-4 bg-slate-400 text-center">
+              <p className="font-bold text-xl text-gray-800 uppercase pb-4">
                 Ijeoma Ejimadu
               </p>
               <Link
                 to="/speaker"
-                className=" button bg-gradient-to-r from-green-900 to-blue-400 hover:bg-gray-200 text-white hover:text-black py-2 px-2 hover:border-gray-700 rounded text-center md:max-w-2xl border font-semibold"
+                className=" button bg-gradient-to-r from-green-900 to-blue-400 hover:bg-gray-200 text-white hover:text-black py-2 px-4 hover:border-gray-700 rounded text-center md:max-w-2xl border font-semibold"
               >
                 More
               </Link>
