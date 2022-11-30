@@ -9,10 +9,10 @@ const Speaker1 = () => {
     <section className="bg-gradient-to-r from-green-700 to-green-900">
       <div className="container pt-32 pb-16 flex justify-center items-center flex-col">
         <img src={speaker} alt="" className="rounded object-fill" />
-        <p className="mt-4 font-bold text-xl text-gray-100 uppercase text-center">
+        <p className="mt-4 font-bold text-xl text-gray-100 uppercase">
           Ijeoma Ejimadu
         </p>
-        <p className="mt-4 text-gray-100 px-4">
+        <p className="mt-4 text-gray-100 mx-4">
           Ijeoma Ejimadu is a first year Columbia Business School student with
           an interest in Venture Capital and Social Entrepreneurship in Emerging
           Markets. She is a DreamVC fellow, Consortium Fellow and Forte Fellow.
